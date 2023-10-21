@@ -78,10 +78,10 @@ final_dict_for_real = {i: final_dict_for_real[i] for i in myKeys}
 # Write results to csv file:
 with open('frame_fixes.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Producer", "Operator", "Job", "Notes"])
+    writer.writerow(["Producer", "Operator", "job", "notes"])
     writer.writerow([producer, operator, job, notes])
     writer.writerow([" "])
-    writer.writerow(["Location", "Frame(s)"])
+    writer.writerow(["show location", "frames to fix"])
 
     # Calculate ranges:
     frame_list = list()
