@@ -1,6 +1,12 @@
 import csv
 import re # for regex
 
+def is_consecutive(frame1, frame2):
+    return abs(frame1 - frame2) == 1 or frame2 == -1
+
+def range_string(frame1, frame2):
+    return str(frame1) + " - " + str(frame2)
+
 print()
 
 # Read and parse data from the Xytech work order:
@@ -67,10 +73,7 @@ for path in final_dict:
 # Sort final_dict by key (in this case, the frames):
 myKeys = list(final_dict_for_real.keys())
 myKeys.sort()
-final_dict_for_real = {i: final_dict_for_real[i] for i in myKeys} 
-
-for dir in final_dict_for_real.keys():
-    print(f"{dir}: {final_dict_for_real[dir]}")
+final_dict_for_real = {i: final_dict_for_real[i] for i in myKeys}
 
 # Write results to csv file:
 with open('frame_fixes.csv', 'w', newline='') as file:
@@ -82,30 +85,24 @@ with open('frame_fixes.csv', 'w', newline='') as file:
 
     # Calculate ranges:
     frame_list = list()
-    # i = 0
     previous_frame = -1 # to get us started since the first frame won't have a previous frame
     for frame in final_dict_for_real:
-        # Check if this frame and the next frame are consecutive:
-        if abs(frame - previous_frame) == 1 or previous_frame == -1:
+        if is_consecutive(frame, previous_frame):
             pass
-        # If not, reset the frame list:
         else:
             if len(frame_list) == 1: # put this frame on a line by itself
-                print(frame)
                 writer.writerow([final_dict_for_real[frame], frame_list[0]])
-                print(f"{final_dict_for_real[frame]} : {frame_list[0]}")
             else: # print the range
-                frame_range = str(frame_list[0]) + " - " + str(frame_list[-1])
-                writer.writerow([final_dict_for_real[frame], frame_range])
-                print(f"{final_dict_for_real[frame]} : {frame_range}")
-            frame_list = list()
+                writer.writerow([final_dict_for_real[frame], range_string(frame_list[0], frame_list[-1])])
+            frame_list = list() # reset to empty list
         frame_list.append(frame)
+        save_previous = previous_frame
         previous_frame = frame # save this frame as the previous so that next time we'll have something to check
 
-        # Make sure frame + 1 is not out of range:
-        # if i < len(final_dict_for_real):
-            
-        #     i += 1
-           
+    # Handle the last frame:
+    if is_consecutive(frame, save_previous):
+        writer.writerow([final_dict_for_real[frame], range_string(save_previous, frame)])
+    else:
+        writer.writerow([final_dict_for_real[frame], frame])
 
 print()
