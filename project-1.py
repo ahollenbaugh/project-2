@@ -82,28 +82,30 @@ with open('frame_fixes.csv', 'w', newline='') as file:
 
     # Calculate ranges:
     frame_list = list()
-    i = 0
+    # i = 0
     previous_frame = -1 # to get us started since the first frame won't have a previous frame
     for frame in final_dict_for_real:
+        # Check if this frame and the next frame are consecutive:
+        if abs(frame - previous_frame) == 1 or previous_frame == -1:
+            pass
+        # If not, reset the frame list:
+        else:
+            if len(frame_list) == 1: # put this frame on a line by itself
+                print(frame)
+                writer.writerow([final_dict_for_real[frame], frame_list[0]])
+                print(f"{final_dict_for_real[frame]} : {frame_list[0]}")
+            else: # print the range
+                frame_range = str(frame_list[0]) + " - " + str(frame_list[-1])
+                writer.writerow([final_dict_for_real[frame], frame_range])
+                print(f"{final_dict_for_real[frame]} : {frame_range}")
+            frame_list = list()
+        frame_list.append(frame)
+        previous_frame = frame # save this frame as the previous so that next time we'll have something to check
+
         # Make sure frame + 1 is not out of range:
-        if i < len(final_dict_for_real):
-            # Check if this frame and the next frame are consecutive:
-            if abs(frame - previous_frame) == 1 or previous_frame == -1:
-                pass
-            # If not, reset the frame list:
-            else:
-                if len(frame_list) == 1: # put this frame on a line by itself
-                    print(frame)
-                    writer.writerow([final_dict_for_real[frame], frame_list[0]])
-                    print(f"{final_dict_for_real[frame]} : {frame_list[0]}")
-                else: # print the range
-                    frame_range = str(frame_list[0]) + " - " + str(frame_list[-1])
-                    writer.writerow([final_dict_for_real[frame], frame_range])
-                    print(f"{final_dict_for_real[frame]} : {frame_range}")
-                frame_list = list()
-            frame_list.append(frame)
-            previous_frame = frame # save this frame as the previous so that next time we'll have something to check
-            i += 1
+        # if i < len(final_dict_for_real):
+            
+        #     i += 1
            
 
 print()
