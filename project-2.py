@@ -1,11 +1,32 @@
 import csv
 import re # for regex
+import argparse
+import sys
 
 def is_consecutive(frame1, frame2):
     return abs(frame1 - frame2) == 1 or frame2 == -1
 
 def range_string(frame1, frame2):
     return str(frame1) + " - " + str(frame2)
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--files", dest="workFiles", help="files to process", nargs="+")
+parser.add_argument("--verbose", action="store_true", help="show verbose")
+parser.add_argument("--xytech", dest="xytech", help="name of xytech file")
+parser.add_argument("--output", dest="output", help="output to csv or database")
+
+args = parser.parse_args()
+
+if args.workFiles is None:
+    print("No BL/Flame files selected")
+    sys.exit(2)
+else:
+    job = args.workFiles
+    print(job)
+if args.verbose: print("verbose!")
+if args.xytech: print(args.xytech)
+if args.output: print(args.output)
 
 print()
 
