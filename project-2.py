@@ -74,9 +74,6 @@ with open('Baselight_export.txt') as baselight:
                 if frame != '<err>' and frame != '<null>':
                     frame_dictionary[subdirectory].append(int(frame))
 
-xytech.close()
-baselight.close()
-
 # If a Xytech directory contains a Baselight subdirectory, replace with Xytech directory in frame_dictionary:
 # basically, make a copy of frame_dictionary, but use the Xytech directories instead of the Baselight ones
 final_dict = dict()
