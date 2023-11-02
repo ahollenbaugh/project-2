@@ -1,5 +1,7 @@
 import csv
 import re # for regex
+import argparse
+import sys
 
 def is_consecutive(frame1, frame2):
     return abs(frame1 - frame2) == 1 or frame2 == -1
@@ -7,12 +9,31 @@ def is_consecutive(frame1, frame2):
 def range_string(frame1, frame2):
     return str(frame1) + " - " + str(frame2)
 
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--files", dest="workFiles", help="files to process", nargs="+")
+parser.add_argument("--verbose", action="store_true", help="show verbose")
+parser.add_argument("--xytech", dest="xytech", help="name of xytech file")
+parser.add_argument("--output", dest="output", help="csv or database")
+
+args = parser.parse_args()
+
+if args.workFiles is None:
+    print("No BL/Flame files selected!")
+    sys.exit(2)
+else:
+    if args.verbose: 
+        print("verbose enabled!")
+        print(f"workFiles = {args.workFiles}")
+        if args.xytech: print(f"xytech = {args.xytech}")
+        if args.output: print(f"output = {args.output}")
+
 print()
 
 # Read and parse data from the Xytech work order:
 
 xytech_directories = list()
-with open('Xytech.txt') as xytech:
+with open(args.xytech) as xytech:
     for _ in range(2): # skip first two lines
         next(xytech)
     
@@ -33,28 +54,29 @@ producer = producer.split(': ')[1] # WLOG, gets rid of the "Producer: " part
 operator = operator.split(': ')[1]
 job = job.split(': ')[1]
 
-# Read and parse data from the Baselight file:
+for file in args.workFiles:
+    if re.search("Baselight", file):
+        # Read and parse data from the Baselight file:
+        frame_dictionary = dict() # key: subdirectory, value(s): frame(s)
+        with open('Baselight_export.txt') as baselight:
+            line_list = baselight.readlines()
 
-frame_dictionary = dict() # key: subdirectory, value(s): frame(s)
-with open('Baselight_export.txt') as baselight:
-    line_list = baselight.readlines()
+            for line in line_list:
+                if line != "\n":
+                    line = line.rstrip().split("/baselightfilesystem1/")[1].split(" ") # separate directory from frames
 
-    for line in line_list:
-        if line != "\n":
-            line = line.rstrip().split("/baselightfilesystem1/")[1].split(" ") # separate directory from frames
+                    subdirectory = line[0]
+                    frames = line[1:len(line)]
 
-            subdirectory = line[0]
-            frames = line[1:len(line)]
-
-            # if subdirectory doesn't exist in the frame dictionary yet, create a new frame list for it
-            if not bool(frame_dictionary.get(subdirectory)):
-                frame_dictionary[subdirectory] = list()
-            for frame in frames:
-                if frame != '<err>' and frame != '<null>':
-                    frame_dictionary[subdirectory].append(int(frame))
-
-xytech.close()
-baselight.close()
+                    # if subdirectory doesn't exist in the frame dictionary yet, create a new frame list for it
+                    if not bool(frame_dictionary.get(subdirectory)):
+                        frame_dictionary[subdirectory] = list()
+                    for frame in frames:
+                        if frame != '<err>' and frame != '<null>':
+                            frame_dictionary[subdirectory].append(int(frame))
+    else:
+        # Read and parse data from the Flame file:
+        pass
 
 # If a Xytech directory contains a Baselight subdirectory, replace with Xytech directory in frame_dictionary:
 # basically, make a copy of frame_dictionary, but use the Xytech directories instead of the Baselight ones
@@ -75,34 +97,38 @@ myKeys = list(final_dict_for_real.keys())
 myKeys.sort()
 final_dict_for_real = {i: final_dict_for_real[i] for i in myKeys}
 
-# Write results to csv file:
-with open('frame_fixes.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(["Producer", "Operator", "job", "notes"])
-    writer.writerow([producer, operator, job, notes])
-    writer.writerow([" "])
-    writer.writerow(["show location", "frames to fix"])
+if args.output == "csv":
+    # Write results to csv file:
+    with open('frame_fixes.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Producer", "Operator", "job", "notes"])
+        writer.writerow([producer, operator, job, notes])
+        writer.writerow([" "])
+        writer.writerow(["show location", "frames to fix"])
 
-    # Calculate ranges:
-    frame_list = list()
-    previous_frame = -1 # to get us started since the first frame won't have a previous frame
-    for frame in final_dict_for_real:
-        if is_consecutive(frame, previous_frame):
-            pass
+        # Calculate ranges:
+        frame_list = list()
+        previous_frame = -1 # to get us started since the first frame won't have a previous frame
+        for frame in final_dict_for_real:
+            if is_consecutive(frame, previous_frame):
+                pass
+            else:
+                if len(frame_list) == 1: # put this frame on a line by itself
+                    writer.writerow([final_dict_for_real[frame], frame_list[0]])
+                else: # print the range
+                    writer.writerow([final_dict_for_real[frame], range_string(frame_list[0], frame_list[-1])])
+                frame_list = list() # reset to empty list
+            frame_list.append(frame)
+            save_previous = previous_frame
+            previous_frame = frame # save this frame as the previous so that next time we'll have something to check
+
+        # Handle the last frame:
+        if is_consecutive(frame, save_previous):
+            writer.writerow([final_dict_for_real[frame], range_string(save_previous, frame)])
         else:
-            if len(frame_list) == 1: # put this frame on a line by itself
-                writer.writerow([final_dict_for_real[frame], frame_list[0]])
-            else: # print the range
-                writer.writerow([final_dict_for_real[frame], range_string(frame_list[0], frame_list[-1])])
-            frame_list = list() # reset to empty list
-        frame_list.append(frame)
-        save_previous = previous_frame
-        previous_frame = frame # save this frame as the previous so that next time we'll have something to check
-
-    # Handle the last frame:
-    if is_consecutive(frame, save_previous):
-        writer.writerow([final_dict_for_real[frame], range_string(save_previous, frame)])
-    else:
-        writer.writerow([final_dict_for_real[frame], frame])
+            writer.writerow([final_dict_for_real[frame], frame])
+else:
+    # Insert into database:
+    pass
 
 print()
