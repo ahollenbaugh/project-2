@@ -22,8 +22,7 @@ if args.workFiles is None:
     print("No BL/Flame files selected")
     sys.exit(2)
 else:
-    job = args.workFiles
-    print(job)
+    print(args.workFiles)
 if args.verbose: print("verbose!")
 if args.xytech: print(args.xytech)
 if args.output: print(args.output)
