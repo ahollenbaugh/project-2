@@ -14,18 +14,19 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--files", dest="workFiles", help="files to process", nargs="+")
 parser.add_argument("--verbose", action="store_true", help="show verbose")
 parser.add_argument("--xytech", dest="xytech", help="name of xytech file")
-parser.add_argument("--output", dest="output", help="output to csv or database")
+parser.add_argument("--output", dest="output", help="csv or database")
 
 args = parser.parse_args()
 
 if args.workFiles is None:
-    print("No BL/Flame files selected")
+    print("No BL/Flame files selected!")
     sys.exit(2)
 else:
-    print(args.workFiles)
-if args.verbose: print("verbose!")
-if args.xytech: print(args.xytech)
-if args.output: print(args.output)
+    if args.verbose: 
+        print("verbose enabled!")
+        print(f"workFiles = {args.workFiles}")
+        if args.xytech: print(f"xytech = {args.xytech}")
+        if args.output: print(f"output = {args.output}")
 
 print()
 
