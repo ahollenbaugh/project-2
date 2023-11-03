@@ -42,7 +42,7 @@ with open(args.xytech) as xytech:
     job = xytech.readline().rstrip()
 
     for line in xytech:
-        if(re.search("/hpsans", line)):
+        if(re.search("ddnsata", line)):
             xytech_directories.append(line.rstrip())
 
         if(re.search("Notes:", line)):
@@ -58,12 +58,12 @@ for file in args.workFiles:
     if re.search("Baselight", file):
         # Read and parse data from the Baselight file:
         frame_dictionary = dict() # key: subdirectory, value(s): frame(s)
-        with open('Baselight_export.txt') as baselight:
+        with open(file) as baselight:
             line_list = baselight.readlines()
 
             for line in line_list:
                 if line != "\n":
-                    line = line.rstrip().split("/baselightfilesystem1/")[1].split(" ") # separate directory from frames
+                    line = line.rstrip().split("/images1/")[1].split(" ") # separate directory from frames
 
                     subdirectory = line[0]
                     frames = line[1:len(line)]
