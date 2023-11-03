@@ -3,6 +3,8 @@ import re # for regex
 import argparse
 import sys
 import pymongo
+import os
+from datetime import date
 
 def is_consecutive(frame1, frame2):
     return abs(frame1 - frame2) == 1 or frame2 == -1
@@ -14,8 +16,10 @@ def range_string(frame1, frame2):
 
 mongo_client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = mongo_client["comp467"]
-files_collection = db["files"]
-jobs_collection = db["jobs"]
+files_collection = db["files"] #1
+jobs_collection = db["jobs"] #2
+
+files_documents = [] # store records for the collection called "files" here
 
 # Argparse
 
@@ -39,6 +43,14 @@ else:
         if args.output: print(f"output = {args.output}")
 
 print()
+
+# Get name of the person running this script:
+current_user = os.getlogin()
+if args.verbose: print(f"current_user: {current_user}")
+
+# Get the date the script was run (today's date):
+run_date = date.today()
+if args.verbose: print(f"run_date: {run_date}")
 
 # Read and parse data from the Xytech work order:
 
@@ -67,6 +79,23 @@ job = job.split(': ')[1]
 frame_dictionary = dict() # key: subdirectory, value(s): frame(s)
 for file in args.workFiles:
     if re.search("Baselight", file):
+        # First parse Baselight filename:
+        filename_info = str(file).strip(".txt").split("_")
+        machine = filename_info[0]
+        user_on_file = filename_info[1]
+        date_of_file = filename_info[2]
+        if args.verbose:
+            print(f"machine: {machine}")
+            print(f"user_on_file: {user_on_file}")
+            print(f"date_of_file: {date_of_file}")
+        
+        # Prepare dictionary/document just in case the user wants to insert into db:
+        files_documents.append({"current_user": current_user, 
+                                "machine": machine, 
+                                "user_on_file": user_on_file, 
+                                "date_of_file":date_of_file, 
+                                "run_date": run_date})
+
         # Read and parse data from the Baselight file:
         with open(file) as baselight:
             line_list = baselight.readlines()
@@ -155,6 +184,6 @@ if args.output == "csv":
             writer.writerow([final_dict_for_real[frame], frame])
 else:
     # Insert into database:
-    pass
+    files_collection.insert_many(files_documents)
 
 print()
