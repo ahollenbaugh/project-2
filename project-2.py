@@ -2,12 +2,22 @@ import csv
 import re # for regex
 import argparse
 import sys
+import pymongo
 
 def is_consecutive(frame1, frame2):
     return abs(frame1 - frame2) == 1 or frame2 == -1
 
 def range_string(frame1, frame2):
     return str(frame1) + " - " + str(frame2)
+
+# MongoDB
+
+mongo_client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = mongo_client["comp467"]
+files_collection = db["files"]
+jobs_collection = db["jobs"]
+
+# Argparse
 
 parser = argparse.ArgumentParser()
 
