@@ -54,10 +54,10 @@ producer = producer.split(': ')[1] # WLOG, gets rid of the "Producer: " part
 operator = operator.split(': ')[1]
 job = job.split(': ')[1]
 
+frame_dictionary = dict() # key: subdirectory, value(s): frame(s)
 for file in args.workFiles:
     if re.search("Baselight", file):
         # Read and parse data from the Baselight file:
-        frame_dictionary = dict() # key: subdirectory, value(s): frame(s)
         with open(file) as baselight:
             line_list = baselight.readlines()
 
@@ -75,8 +75,24 @@ for file in args.workFiles:
                         if frame != '<err>' and frame != '<null>':
                             frame_dictionary[subdirectory].append(int(frame))
     else:
-        # Read and parse data from the Flame file:
-        pass
+        if re.search("Flame", file):
+            # Read and parse data from the Flame file:
+            with open(file) as flame:
+                line_list = flame.readlines()
+
+                for line in line_list:
+                    if line != "\n":
+                        line = line.rstrip().split("/net/flame-archive ")[1].split(" ") # separate directory from frames
+
+                        subdirectory = line[0]
+                        frames = line[1:len(line)]
+
+                        # if subdirectory doesn't exist in the frame dictionary yet, create a new frame list for it
+                        if not bool(frame_dictionary.get(subdirectory)):
+                            frame_dictionary[subdirectory] = list()
+                        for frame in frames:
+                            if frame != '<err>' and frame != '<null>':
+                                frame_dictionary[subdirectory].append(int(frame))
 
 # If a Xytech directory contains a Baselight subdirectory, replace with Xytech directory in frame_dictionary:
 # basically, make a copy of frame_dictionary, but use the Xytech directories instead of the Baselight ones
