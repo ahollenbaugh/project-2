@@ -204,7 +204,7 @@ if args.output == "csv":
             writer.writerow([final_dict_for_real[tuple], frame])
 else:
     # Insert into database:
-    files_collection.insert_many(files_documents)
+    result1 = files_collection.insert_many(files_documents)
 
     # Calculate ranges:
     frame_list = list()
@@ -241,5 +241,7 @@ else:
                                "location": final_dict_for_real[tuple],
                                "frames": frame})
         
-    jobs_collection.insert_many(jobs_documents)
+    result2 = jobs_collection.insert_many(jobs_documents)
+    print(f"Inserted these documents into the files collection: {result1}")
+    print(f"Inserted these documents into the jobs collection: {result2}")
 print()
