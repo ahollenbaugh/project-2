@@ -1,0 +1,423 @@
+[{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e340"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 4
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e341"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 55
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e343"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "200 - 203"
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e344"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 263
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e346"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "422 - 424"
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e347"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 452
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e348"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 578
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e349"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 678
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 738
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 836
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34c"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1011
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34d"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1156
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34e"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1345
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34f"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1767
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e350"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 3456
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e351"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 4444
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e352"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 5555
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e354"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": "7654 - 7655"
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e356"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 8800
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e358"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 9942
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e359"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": 9999
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e35a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": "11007 - 11008"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 4
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5c"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 55
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5e"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "200 - 203"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5f"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 263
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b61"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "422 - 424"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b62"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 452
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b63"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 578
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b64"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 678
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b65"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 738
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b66"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 836
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b67"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1011
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b68"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1156
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b69"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1345
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1767
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 3456
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6c"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 4444
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6d"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 5555
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6f"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": "7654 - 7655"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b71"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 8800
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b73"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 9942
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b74"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": 9999
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b75"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": "11007 - 11008"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": 3410
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": "4120 - 4121"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44052"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230327",
+  "location": "/ddnsata11/production/Avatar/pickups/shot_5ab/1920x1080",
+  "frames": "9087 - 9088"
+}]
