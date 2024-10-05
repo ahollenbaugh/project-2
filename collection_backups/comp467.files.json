@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6545ae8cb45a46c81df0e33f"
+  },
+  "current_user": "aghol",
+  "machine": "Flame",
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "run_date": "20231103"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b59"
+  },
+  "current_user": "aghol",
+  "machine": "Baselight",
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "run_date": "20231103"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fda3"
+  },
+  "current_user": "aghol",
+  "machine": "Baselight",
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "run_date": "20231103"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa0"
+  },
+  "current_user": "aghol",
+  "machine": "Baselight",
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "run_date": "20231103"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa1"
+  },
+  "current_user": "aghol",
+  "machine": "Flame",
+  "user_on_file": "MFelix",
+  "date_of_file": "20230323",
+  "run_date": "20231103"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9415e"
+  },
+  "current_user": "aghol",
+  "machine": "Baselight",
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "run_date": "20231103"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4403e"
+  },
+  "current_user": "aghol",
+  "machine": "Baselight",
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "run_date": "20231103"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4403f"
+  },
+  "current_user": "aghol",
+  "machine": "Flame",
+  "user_on_file": "BBonds",
+  "date_of_file": "20230327",
+  "run_date": "20231103"
+}]

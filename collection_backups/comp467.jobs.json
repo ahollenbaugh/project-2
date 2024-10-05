@@ -1,0 +1,1521 @@
+[{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e340"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 4
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e341"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 55
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e342"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 126
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e343"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "200 - 203"
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e344"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 263
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e345"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 368
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e346"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "422 - 424"
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e347"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 452
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e348"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 578
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e349"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 678
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 738
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 836
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34c"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1011
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34d"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1156
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34e"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1345
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e34f"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1767
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e350"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 3456
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e351"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 4444
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e352"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 5555
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e353"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 6666
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e354"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": "7654 - 7655"
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e355"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": "7777 - 7778"
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e356"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 8800
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e357"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 8888
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e358"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 9942
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e359"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": 9999
+},
+{
+  "_id": {
+    "$oid": "6545ae8db45a46c81df0e35a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": "11007 - 11008"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 4
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5c"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 55
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5d"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 126
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5e"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "200 - 203"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b5f"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 263
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b60"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 368
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b61"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": "422 - 424"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b62"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 452
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b63"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 578
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b64"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 678
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b65"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 738
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b66"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 836
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b67"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1011
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b68"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1156
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b69"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1345
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata3/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1767
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 3456
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6c"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 4444
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6d"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 5555
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6e"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 6666
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b6f"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": "7654 - 7655"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b70"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": "7777 - 7778"
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b71"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 8800
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b72"
+  },
+  "user_on_file": "DFlowers",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 8888
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b73"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata5/production/Avatar/reel1/partB/1920x1080",
+  "frames": 9942
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b74"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": 9999
+},
+{
+  "_id": {
+    "$oid": "6545bf907520d271553b2b75"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230326",
+  "location": "/ddnsata6/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": "11007 - 11008"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fda4"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata4/production/Avatar/reel3/partA/1920x1080",
+  "frames": "134 - 137"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fda5"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata1/production/Avatar/pickups/shot_3ab/1920x1080",
+  "frames": "712 - 713"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fda6"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata1/production/Avatar/pickups/shot_3ab/1920x1080",
+  "frames": "1045 - 1046"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fda7"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata7/production/Avatar/reel3/VFX/Hydraulx",
+  "frames": "1166 - 1168"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fda8"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata9/production/Avatar/reel3/partB/1920x1080",
+  "frames": "3045 - 3046"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fda9"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata9/production/Avatar/reel3/partB/1920x1080",
+  "frames": "8148 - 8150"
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fdaa"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata9/production/Avatar/reel3/partB/1920x1080",
+  "frames": 11112
+},
+{
+  "_id": {
+    "$oid": "6545c034a6741d1c4b93fdab"
+  },
+  "user_on_file": "GLopez",
+  "date_of_file": "20230325",
+  "location": "/ddnsata9/production/Avatar/reel3/partB/1920x1080",
+  "frames": 11114
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa2"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "32 - 34"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa3"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "67 - 69"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa4"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "122 - 123"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa5"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 155
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa6"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1023
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa7"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "1111 - 1112"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa8"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1160
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aa9"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "1201 - 1205"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aaa"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata7/production/Avatar/reel1/VFX/Hydraulx",
+  "frames": "1211 - 1214"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aab"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata7/production/Avatar/reel1/VFX/Hydraulx",
+  "frames": "1251 - 1253"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aac"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata7/production/Avatar/reel1/VFX/Hydraulx",
+  "frames": 1260
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aad"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "1270 - 1272"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aae"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "1302 - 1303"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aaf"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1310
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab0"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 1500
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab1"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata4/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": "5000 - 5002"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab2"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "5010 - 5014"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab3"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 5111
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab4"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 5122
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab5"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 5133
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab6"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 5144
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab7"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 5155
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab8"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata3/production/Avatar/reel1/VFX/Framestore",
+  "frames": 5166
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ab9"
+  },
+  "user_on_file": "MFelix",
+  "date_of_file": "20230323",
+  "location": "/ddnsata3/production/Avatar/reel1/VFX/Framestore",
+  "frames": "6188 - 6191"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aba"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6195
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714abb"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "6200 - 6201"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714abc"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6209
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714abd"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6212
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714abe"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6219
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714abf"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "6233 - 6234"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac0"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6267
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac1"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6269
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac2"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6271
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac3"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6278
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac4"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": 6282
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac5"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata5/production/Avatar/reel1/partA/1920x1080",
+  "frames": "6288 - 6290"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac6"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": "6292 - 6294"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac7"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": "6409 - 6411"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac8"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 6413
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ac9"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 6450
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714aca"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": "6666 - 6668"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714acb"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": "6670 - 6671"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714acc"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata9/production/Avatar/reel1/VFX/AnimalLogic",
+  "frames": "6680 - 6684"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714acd"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata9/production/Avatar/reel1/VFX/AnimalLogic",
+  "frames": "6832 - 6834"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ace"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": "6911 - 6914"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714acf"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata4/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": 8845
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad0"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata4/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": "10001 - 10002"
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad1"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata4/production/Avatar/pickups/shot_1ab/1920x1080",
+  "frames": 10008
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad2"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 11113
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad3"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12011
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad4"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12021
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad5"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12031
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad6"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12041
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad7"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12051
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad8"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12111
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ad9"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12121
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714ada"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12131
+},
+{
+  "_id": {
+    "$oid": "6545c052bee5b6e78e714adb"
+  },
+  "user_on_file": "JJacobs",
+  "date_of_file": "20230323",
+  "location": "/ddnsata2/production/Avatar/reel1/partB/1920x1080",
+  "frames": 12141
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9415f"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata4/production/Avatar/reel2/partA/1920x1080",
+  "frames": 1
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94160"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata4/production/Avatar/reel2/partA/1920x1080",
+  "frames": "300 - 303"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94161"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata4/production/Avatar/reel2/partA/1920x1080",
+  "frames": 1010
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94162"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata4/production/Avatar/reel2/partA/1920x1080",
+  "frames": "1111 - 1113"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94163"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata4/production/Avatar/reel2/partA/1920x1080",
+  "frames": "1400 - 1403"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94164"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata3/production/Avatar/pickups/shot_2ab/1920x1080",
+  "frames": "1405 - 1408"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94165"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata9/production/Avatar/reel2/VFX/AnimalLogic",
+  "frames": "1501 - 1504"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94166"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata8/production/Avatar/reel2/VFX/Hydraulx",
+  "frames": "1637 - 1639"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94167"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata8/production/Avatar/reel2/VFX/Hydraulx",
+  "frames": "1800 - 1801"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94168"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata2/production/Avatar/reel2/partB/1920x1080",
+  "frames": "1911 - 1913"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94169"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata2/production/Avatar/reel2/partB/1920x1080",
+  "frames": 4000
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9416a"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata2/production/Avatar/reel2/partB/1920x1080",
+  "frames": "4555 - 4557"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9416b"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata2/production/Avatar/reel2/partB/1920x1080",
+  "frames": 4601
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9416c"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata3/production/Avatar/pickups/shot_2ab/1920x1080",
+  "frames": 4699
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9416d"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata3/production/Avatar/pickups/shot_2ab/1920x1080",
+  "frames": 4755
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9416e"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata1/production/Avatar/reel2/VFX/Framestore",
+  "frames": 4766
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b9416f"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata1/production/Avatar/reel2/VFX/Framestore",
+  "frames": "5122 - 5125"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94170"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata9/production/Avatar/reel2/VFX/AnimalLogic",
+  "frames": "5466 - 5468"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94171"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata9/production/Avatar/reel2/VFX/AnimalLogic",
+  "frames": 6000
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94172"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata9/production/Avatar/reel2/VFX/AnimalLogic",
+  "frames": 6199
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94173"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata9/production/Avatar/reel2/VFX/AnimalLogic",
+  "frames": "6421 - 6422"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94174"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata2/production/Avatar/reel2/partB/1920x1080",
+  "frames": "6455 - 6456"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94175"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata3/production/Avatar/pickups/shot_2ab/1920x1080",
+  "frames": "7009 - 7017"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94176"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata2/production/Avatar/reel2/partB/1920x1080",
+  "frames": "8488 - 8491"
+},
+{
+  "_id": {
+    "$oid": "6545c063537a918351b94177"
+  },
+  "user_on_file": "TDanza",
+  "date_of_file": "20230324",
+  "location": "/ddnsata2/production/Avatar/reel2/partB/1920x1080",
+  "frames": "10001 - 10002"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44040"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata2/production/Avatar/reel5/partA/1920x1080",
+  "frames": "202 - 204"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44041"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata2/production/Avatar/reel5/partA/1920x1080",
+  "frames": "356 - 362"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44042"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata2/production/Avatar/reel5/partA/1920x1080",
+  "frames": "401 - 403"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44043"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata2/production/Avatar/reel5/partA/1920x1080",
+  "frames": "467 - 468"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44044"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata2/production/Avatar/reel5/partA/1920x1080",
+  "frames": "561 - 562"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44045"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata9/production/Avatar/reel5/VFX/Hydraulx",
+  "frames": "601 - 608"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44046"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata5/production/Avatar/reel5/VFX/Framestore",
+  "frames": "701 - 704"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44047"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata11/production/Avatar/pickups/shot_5ab/1920x1080",
+  "frames": "888 - 897"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44048"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata9/production/Avatar/reel5/VFX/Hydraulx",
+  "frames": "1044 - 1047"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44049"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata1/production/Avatar/reel5/VFX/AnimalLogic",
+  "frames": 2678
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404a"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": 3410
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404b"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": "4120 - 4121"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404c"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata11/production/Avatar/pickups/shot_5ab/1920x1080",
+  "frames": "4123 - 4124"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404d"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": 4189
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404e"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": "6111 - 6118"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a4404f"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": "7895 - 7897"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44050"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata6/production/Avatar/reel5/partB/1920x1080",
+  "frames": 8011
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44051"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata11/production/Avatar/pickups/shot_5ab/1920x1080",
+  "frames": 8543
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44052"
+  },
+  "user_on_file": "BBonds",
+  "date_of_file": "20230327",
+  "location": "/ddnsata11/production/Avatar/pickups/shot_5ab/1920x1080",
+  "frames": "9087 - 9088"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44053"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata9/production/Avatar/reel5/VFX/Hydraulx",
+  "frames": "9090 - 9091"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44054"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata9/production/Avatar/reel5/VFX/Hydraulx",
+  "frames": "9555 - 9557"
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44055"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata9/production/Avatar/reel5/VFX/Hydraulx",
+  "frames": 9876
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44056"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata11/production/Avatar/pickups/shot_5ab/1920x1080",
+  "frames": 9956
+},
+{
+  "_id": {
+    "$oid": "6545c07add74ab6257a44057"
+  },
+  "user_on_file": "THolland",
+  "date_of_file": "20230327",
+  "location": "/ddnsata11/production/Avatar/pickups/shot_5ab/1920x1080",
+  "frames": "10802 - 10803"
+}]
